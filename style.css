@@ -3,6 +3,7 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 5%;
 }
 .half-width{
     width:50%;
@@ -12,6 +13,7 @@ section{
 }
 .half-width img{
     width:60%;
+    margin:5%;
 }
 .orange{
     color:orangered;
@@ -21,4 +23,19 @@ section{
     background-image: linear-gradient(orange,blue);
     padding: 10px 40px;
     color:white;
+    font-weight:700 ;
+}
+h1{
+    font-size: 60px;
+}
+.resume-button{
+    text-decoration: none;
+   background-image: linear-gradient(tomato,orange);
+    color:aliceblue;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+
+    
+
 }
